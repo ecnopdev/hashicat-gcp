@@ -1,6 +1,6 @@
 module "network" {
   source  = "app.terraform.io/jose-chip-labs/network/google"
-  version = "7.5.0"
+  version = "3.5.0"
   network_name = "gaurav-network"
   project_id = var.project
   subnets = [
